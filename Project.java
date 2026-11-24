@@ -180,3 +180,13 @@ public class Project {
         knapsackPlan(items, count, capacity);
     }
 }
+
+
+// === Warehouse Packing Optimizer ===
+// Enter container capacity (kg): 50
+// Enter number of items: 3
+// Item 1 (Name weight value): A 10 60
+// Item 2 (Name weight value): B 20 100
+// Item 3 (Name weight value): C 30 120
+// Greedy: A, B | Weight 30 | Value 160
+// Knapsack: B, C | Weight 50 | Value 220
